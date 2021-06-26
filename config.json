@@ -1,0 +1,203 @@
+{
+    "rules": [{
+            "conditions": [
+                "New",
+                "Aged"
+            ],
+            "mamdani_output": "not popular",
+            "sugeno_output": "(x + y)/5 - 5"
+        },
+        {
+            "conditions": [
+                "New",
+                "Long-Ago"
+            ],
+            "mamdani_output": "not popular",
+            "sugeno_output": "y - 45"
+        },
+        {
+            "conditions": [
+                "New",
+                "Average"
+            ],
+            "mamdani_output": "small popularity",
+            "sugeno_output": "(x + y) / 2 - 10"
+        },
+        {
+            "conditions": [
+                "New",
+                "Recent"
+            ],
+            "mamdani_output": "fine popularity",
+            "sugeno_output": "y - 35"
+        },
+        {
+            "conditions": [
+                "New",
+                "Newest Release"
+            ],
+            "mamdani_output": "fine popularity",
+            "sugeno_output": "y + x"
+        },
+        {
+            "conditions": [
+                "Very Good Condition",
+                "Aged"
+            ],
+            "mamdani_output": "not popular",
+            "sugeno_output": "x - 15"
+        },
+        {
+            "conditions": [
+                "Very Good Condition",
+                "Long-Ago"
+            ],
+            "mamdani_output": "small popularity",
+            "sugeno_output": "(x + y) / 2"
+        },
+        {
+            "conditions": [
+                "Very Good Condition",
+                "Average"
+            ],
+            "mamdani_output": "small popularity",
+            "sugeno_output": "(x + y) / 2 - 5"
+        },
+        {
+            "conditions": [
+                "Very Good Condition",
+                "Recent"
+            ],
+            "mamdani_output": "fine popularity",
+            "sugeno_output": "(x + y) / 2 + 5"
+        },
+        {
+            "conditions": [
+                "Very Good Condition",
+                "Newest Release"
+            ],
+            "mamdani_output": "popular",
+            "sugeno_output": "40 + x"
+        },
+        {
+            "conditions": [
+                "Good Condition",
+                "Aged"
+            ],
+            "mamdani_output": "not popular",
+            "sugeno_output": "x - 30"
+        },
+        {
+            "conditions": [
+                "Good Condition",
+                "Long-Ago"
+            ],
+            "mamdani_output": "small popularity",
+            "sugeno_output": "(x + y) / 2 - 5"
+        },
+        {
+            "conditions": [
+                "Good Condition",
+                "Average"
+            ],
+            "mamdani_output": "fine popularity",
+            "sugeno_output": "(x + y) / 2"
+        },
+        {
+            "conditions": [
+                "Good Condition",
+                "Recent"
+            ],
+            "mamdani_output": "fine popularity",
+            "sugeno_output": "(x + y) / 2 + 5"
+        },
+        {
+            "conditions": [
+                "Good Condition",
+                "Newest Release"
+            ],
+            "mamdani_output": "popular",
+            "sugeno_output": "30 + x"
+        },
+        {
+            "conditions": [
+                "Fine Condition",
+                "Aged"
+            ],
+            "mamdani_output": "small popularity",
+            "sugeno_output": "(x + y - 30) / 2"
+        },
+        {
+            "conditions": [
+                "Fine Condition",
+                "Long-Ago"
+            ],
+            "mamdani_output": "fine popularity",
+            "sugeno_output": "(x + y) / 2 - 10"
+        },
+        {
+            "conditions": [
+                "Fine Condition",
+                "Average"
+            ],
+            "mamdani_output": "popular",
+            "sugeno_output": "(x + y) / 2 + 5"
+        },
+        {
+            "conditions": [
+                "Fine Condition",
+                "Recent"
+            ],
+            "mamdani_output": "popular",
+            "sugeno_output": "(x + y) / 2 + 10"
+        },
+        {
+            "conditions": [
+                "Fine Condition",
+                "Newest Release"
+            ],
+            "mamdani_output": "very popular",
+            "sugeno_output": "x + 5"
+        },
+        {
+            "conditions": [
+                "Bad Condition",
+                "Aged"
+            ],
+            "mamdani_output": "small popularity",
+            "sugeno_output": "x - 70"
+        },
+        {
+            "conditions": [
+                "Bad Condition",
+                "Long-Ago"
+            ],
+            "mamdani_output": "fine popularity",
+            "sugeno_output": "(x + y) / 2 - 13"
+        },
+        {
+            "conditions": [
+                "Bad Condition",
+                "Average"
+            ],
+            "mamdani_output": "popular",
+            "sugeno_output": "(x + y) / 2 - 10"
+        },
+        {
+            "conditions": [
+                "Bad Condition",
+                "Recent"
+            ],
+            "mamdani_output": "very popular",
+            "sugeno_output": "(x + y) / 2"
+        },
+        {
+            "conditions": [
+                "Bad Condition",
+                "Newest Release"
+            ],
+            "mamdani_output": "very popular",
+            "sugeno_output": "(x + y) / 2 + 30"
+        }
+    ]
+}
